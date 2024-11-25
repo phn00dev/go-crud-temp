@@ -11,7 +11,6 @@ import (
 
 func DatabaseConnection() {
 	configs := config.Get()
-
 	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=%s TimeZone=%s",
 		configs.Database.Host,
 		configs.Database.Username,
