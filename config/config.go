@@ -1,8 +1,9 @@
 package config
 
 type Config struct {
-	App    App
-	Server Server
+	App      App
+	Server   Server
+	Database Database
 }
 
 type App struct {
@@ -20,4 +21,6 @@ type Database struct {
 	Host     string
 	Port     string
 	DbName   string
+	SllMode  string
+	TimeZone string
 }
