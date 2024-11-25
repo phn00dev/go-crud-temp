@@ -1,0 +1,14 @@
+app :
+  AppName : "Go CRUD web application"
+
+server :
+  Host : "localhost"
+  Port: "3000"
+
+DB :
+  Username : "postgres"
+  Host : "127.0.0.1"
+  Port : "5432"
+  DbName : "go_crud_temp"
+  SllMode : "disable"
+  TimeZone : "Asia/Ashgabat"
